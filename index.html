@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Adventure</title>
+	<link rel="shortcut-icon" href="favicon.ico">
+	<!-- <link rel='stylesheet' href='bootstrap/css/bootstrap.min.css'>	 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<meta charset='utf-8'>
+</head>
+<body>
+	<div class='container'>
+		<header class='page-header'>
+			<h1 id='title-text'>Text Adventure Game<small> by Jack Mulrow</small></h1>
+		</header>
+		<div class='jumbotron'>
+			<div id='game-container'>
+				<div id='question-text'>
+					<p class='lead'>This is where each question will go</p>
+				</div>
+				<div id='answers-container' class='btn-group btn-group-justified' role="group">
+      			 	<div id="input-container">
+       					<div id='submit-field' class="input-group input-group-lg" style="margin-top: 20px">
+         					<span class="input-group-btn">
+           						<button class="btn btn-success" type="button" id="submit">Submit!</button>
+          				 	</span>
+          					<input type="text" class="form-control" placeholder="Your Name" id="playerName">
+        			 	</div>
+      			   	</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src='scripts/jquery.min.js'></script>
+	<script src='scripts/online_game_full.js'></script>
+	<script src='scripts/main.js'></script>
+</body>
+</html>
